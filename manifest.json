@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Replit Lockdown",
+  "description": "This extension will delete the help elements from the Repl.it Web Page.",
+  "version": "10",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.replit.com/*"
+      ],
+      "all_frames": true,
+      "js": [
+        "/content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html",
+    "default_title": "Replit Lockdown"
+  },
+  "content_security_policy": {},
+  "host_permissions": [
+    "*://*.replit.com/*"
+  ]
+}
