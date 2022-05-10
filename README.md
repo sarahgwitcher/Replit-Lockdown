@@ -8,5 +8,5 @@ Replit does not have controls for specific features within the site's interface.
 # Deployment Guide 
 
 
-Please see this public [Google Doc]( https://docs.google.com/document/d/1ZPJ_4seH8_T8s0HkmQyWh06jOt9jiqj32IK3n2sWx9Y/copy) for an extensive explanation of deploying this extension to school-managed Chromebooks.
+Please see this public [Google Doc]( https://docs.google.com/document/d/1ZPJ_4seH8_T8s0HkmQyWh06jOt9jiqj32IK3n2sWx9Y/copy) for an complete explanation of deploying this extension to school-managed ChromeOS Devices.
 
